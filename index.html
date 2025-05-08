@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore our selection of desserts and manage your cart with ease. View and confirm your order with a carbon-neutral delivery option."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor - Product list with cart</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="desserts">
+        <div class="desserts-wrap">
+          <h1 class="desserts-title">Desserts</h1>
+          <div class="desserts-container"></div>
+        </div>
+  
+        <div class="cart">
+          <h2 class="cart-title">
+            Your Cart (<span class="cart-count" aria-live="polite">0</span>)
+          </h2>
+  
+          <div class="cart-empty">
+            <img src="assets/images/illustration-empty-cart.svg" alt="" role="presentation" class="cart-empty-img" />
+            <p class="cart-empty-text">Your added items will appear here</p>
+          </div>
+  
+          <div class="cart-items"></div>
+  
+          <div class="cart-selected">
+            <div class="cart-total">
+              <p class="cart-total-label">Order Total</p>
+              <p class="cart-total-price" aria-live="polite">$0.00</p>
+            </div>
+  
+            <div class="cart-carbon">
+              <img src="assets/images/icon-carbon-neutral.svg" alt="" class="cart-carbon-img"/>
+              <p class="cart-carbon-text">
+                This is a
+                <span class="cart-carbon-highlight">carbon-neutral</span>
+                delivery
+              </p>
+            </div>
+  
+            <button class="cart-btn open-dialog">Confirm Order</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>  
+</html>
