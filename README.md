@@ -29,8 +29,6 @@ Você pode visualizar o projeto diretamente pelo GitHub Pages:
 
 🔗 **[Acesse aqui a aplicação](https://blurryluwk.github.io/product-list-cart/)**
 
-> Substitua `seu-usuario` pelo seu nome de usuário no GitHub após publicar o repositório.
-
 ## Requisitos Atendidos
 
 - [x] Renderização dinâmica dos produtos via `data.json`
